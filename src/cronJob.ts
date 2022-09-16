@@ -10,7 +10,7 @@ const startCronJob = () => {
   job.start();
 
   // eslint-disable-next-line
-  console.log(job.nextDates(5).toLocaleString({ timeStyle: 'long'}));
+  console.log(job.nextDates(5).toLocaleString({ timeStyle: 'long' }));
 };
 
 export default startCronJob;
