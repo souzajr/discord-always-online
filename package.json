@@ -19,10 +19,12 @@
   "dependencies": {
     "cron": "^2.1.0",
     "dotenv": "^16.0.2",
-    "eris": "^0.17.1"
+    "eris": "^0.17.1",
+    "express": "^4.18.1"
   },
   "devDependencies": {
     "@types/cron": "^2.0.0",
+    "@types/express": "types/express",
     "@types/node": "^18.7.16",
     "@types/ws": "^8.5.3",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
