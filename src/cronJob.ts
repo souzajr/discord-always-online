@@ -8,6 +8,9 @@ const startCronJob = () => {
   });
 
   job.start();
+
+  // eslint-disable-next-line
+  console.log(job.nextDates(5));
 };
 
 export default startCronJob;
