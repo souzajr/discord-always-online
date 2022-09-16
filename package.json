@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "ts-node-dev -r dotenv/config --files ./src/index.ts",
     "build": "tsc",
-    "start": "node -r dotenv/config ./build/index.js",
+    "start": "node ./build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "prettier": "prettier --config .prettierrc \"src/**/*\" --write",
